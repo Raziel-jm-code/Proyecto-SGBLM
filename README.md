@@ -21,15 +21,14 @@ Generación de reportes: Ofrece la capacidad de generar informes detallados sobr
 ## Estructura del proyecto:
 
 .env: Archivo de configuración para variables de entorno.
-
 .vscode: Configuraciones específicas de Visual Studio Code.
-
 app.js: Archivo principal del servidor.
-
 package.json y package-lock.json: Archivos de configuración de Node.js.
-
 public: Carpeta que contiene recursos estáticos como CSS e imágenes.
-
 server: Contiene la lógica del servidor, incluyendo configuraciones, controladores, modelos y rutas.
-
 views: Contiene las plantillas EJS utilizadas para renderizar las páginas web.
+
+### Instalar las siguientes dependencias para ejecutar el programa
+npm install --save connect-flash dotenv ejs ejs-lint express express-ejs-layouts express-session method-override moment mongoose
+
+npm install nodemon
